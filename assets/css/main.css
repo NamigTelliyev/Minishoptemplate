@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+header nav {
+  width: 85%;
+  margin: auto;
+}
+header nav .logo span {
+  font-weight: 700;
+  color: black;
+  font-size: 25px;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+}
+header nav .collapseDiv ul {
+  display: flex;
+  gap: 30px;
+  font-size: 12px;
+}
+
+#newarrivals {
+  width: 100%;
+  background-color: #DBCC8F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#newarrivals .newarrivalscontainer {
+  width: 85%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#newarrivals .newarrivalscontainer .row .newarrivalstext {
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#newarrivals .newarrivalscontainer .row .newarrivalstext span {
+  font-size: 12px;
+  color: white;
+  background-color: black;
+  letter-spacing: 3px;
+  padding: 3px;
+}
+#newarrivals .newarrivalscontainer .row .newarrivalstext h1 {
+  font-size: 45px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+#newarrivals .newarrivalscontainer .row .newarrivalstext button {
+  border: none;
+  background-color: #C2A942;
+  color: white;
+  padding: 10px;
+  width: 140px;
+}
+#newarrivals .newarrivalscontainer .row .photo img {
+  max-width: 100%;
+}
+
+#aboutus {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+#aboutus .aboutuscontainer {
+  width: 85%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#aboutus .aboutuscontainer .row .aboutustext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+#aboutus .aboutuscontainer .row .aboutustext span {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#clothescollection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#clothescollection .clothescollectioncontainer {
+  width: 85%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#clothescollection .clothescollectioncontainer .row .menshoes {
+  background-image: url("/assets/img/choose-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+}
+#clothescollection .clothescollectioncontainer .row .womenshoes {
+  background-color: #0290FF;
+  background-image: url("/assets/img/bg_1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#clothescollection .clothescollectioncontainer .row .shoestext {
+  display: flex;
+}
+
+#dealofmonth {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #DBCC8F;
+}
+#dealofmonth .dealofmonthcontainer {
+  width: 85%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#dealofmonth .dealofmonthcontainer .row .shoesphoto {
+  padding-top: 30px;
+  margin-top: 30px;
+}
+#dealofmonth .dealofmonthcontainer .row .shoesphoto img {
+  max-width: 100%;
+}
+#dealofmonth .dealofmonthcontainer .row .dealofmonthtext {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#dealofmonth .dealofmonthcontainer .row .dealofmonthtext span {
+  color: white;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+#dealofmonth .dealofmonthcontainer .row .dealofmonthtext h1 {
+  color: white;
+  font-weight: 700;
+}
+#dealofmonth .dealofmonthcontainer .row .dealofmonthtext .time {
+  display: flex;
+  gap: 30px;
+}
+#dealofmonth .dealofmonthcontainer .row .dealofmonthtext .time h3 {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+#dealofmonth .dealofmonthcontainer .row .dealofmonthtext .time span {
+  font-size: 12px;
+}
+#dealofmonth .dealofmonthcontainer .row .dealofmonthtext h2 {
+  font-weight: 800;
+  color: black;
+}
+#dealofmonth .dealofmonthcontainer .row .dealofmonthtext h5 {
+  font-weight: 800;
+  color: white;
+}
+#dealofmonth .dealofmonthcontainer .row .dealofmonthtext h5 span {
+  font-weight: 800;
+  color: black;
+}
+#dealofmonth .dealofmonthcontainer .row .product {
+  display: flex;
+}
+#dealofmonth .dealofmonthcontainer .row .product .products {
+  width: 20%;
+}
+#dealofmonth .dealofmonthcontainer .row .product .products img {
+  max-width: 100%;
+}
+
+#oursatisfied {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+#oursatisfied .oursatisfiedcontainer {
+  width: 85%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#oursatisfied .oursatisfiedcontainer .row .shippings .freeshipping {
+  display: flex;
+  gap: 10px;
+  background-color: #F7F7F7;
+  padding: 15px;
+}
+#oursatisfied .oursatisfiedcontainer .row .shippings .valueablegift {
+  display: flex;
+  background-color: #E5E5E5;
+  padding: 15px;
+  gap: 10px;
+}
+#oursatisfied .oursatisfiedcontainer .row .shippings .allday {
+  display: flex;
+  background-color: #DBCC8F;
+  padding: 15px;
+  gap: 10px;
+}
+#oursatisfied .oursatisfiedcontainer .row .shippings .support {
+  display: flex;
+  background-color: #000000;
+  padding: 15px;
+  gap: 10px;
+  color: white;
+}
+#oursatisfied .oursatisfiedcontainer .row .oursatisfiedtext {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#oursatisfied .oursatisfiedcontainer .row .oursatisfiedtext img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+#oursatisfied .oursatisfiedcontainer .row .oursatisfiedtext h5 {
+  color: #DBCC8F;
+}
+#oursatisfied .oursatisfiedcontainer .row .oursatisfiedtext span {
+  color: rgba(146, 146, 146, 0.4);
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+#follow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+#follow .followcontainer {
+  width: 85%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#follow .followcontainer .row .followtext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#follow .followcontainer .row .followtext p {
+  width: 65%;
+}
+
+#photos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#photos .photoscontainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#photos .photoscontainer .row div {
+  width: 22%;
+}
+#photos .photoscontainer .row div img {
+  max-width: 100%;
+}
+
+footer {
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+footer .container {
+  width: 85%;
+  text-align: center;
+}
